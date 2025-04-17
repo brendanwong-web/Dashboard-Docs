@@ -11,22 +11,20 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Powerful Documentation',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam est, cum rerum eaque, enim ullam libero aspernatur iste dignissimos blanditiis cupiditate eius minus incidunt porro, sint quos quas laudantium. Voluptas.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Easier Referencing',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel praesentium explicabo iure deleniti? Iste vero officia optio delectus corrupti debitis velit ex eaque adipisci omnis, quod voluptate iure qui? Natus!
       </>
     ),
   },
@@ -35,8 +33,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi velit, deserunt dignissimos quam atque quos officia placeat itaque tempore odit quaerat natus nihil neque iusto praesentium autem corrupti consectetur nulla.
       </>
     ),
   },
