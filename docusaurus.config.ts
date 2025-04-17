@@ -18,8 +18,8 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'brendanwong-web', // Usually your GitHub org/user name.
-  projectName: 'Dashboard-Docs', // Usually your repo name.
-  deploymentBranch: 'Deployment',
+  projectName: 'brendanwong-web.github.io/Dashboard-Docs', // Usually your repo name.
+  deploymentBranch: 'Main',
   trailingSlash: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
