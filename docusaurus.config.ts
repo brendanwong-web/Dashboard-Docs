@@ -3,6 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+const organizationName = "brendanwong-web";
+const projectName = "Dashboard-Docs";
 
 const config: Config = {
   title: 'Project Lighthouse',
@@ -10,17 +12,17 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://brendanwong-web.github.io/',
+  url: `https://${organizationName}.github.io`,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: `/${projectName}/`,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'brendanwong-web', // Usually your GitHub org/user name.
-  projectName: 'brendanwong-web.github.io/Dashboard-Docs', // Usually your repo name.
+  organizationName, // Usually your GitHub org/user name.
+  projectName, // Usually your repo name.
   deploymentBranch: 'Deployment',
-  trailingSlash: true,
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
