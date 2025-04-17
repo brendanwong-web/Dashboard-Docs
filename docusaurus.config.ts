@@ -5,21 +5,22 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Project Lighthouse',
+  tagline: 'Asset Documentation',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://brendanwong-web.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Dashboard-Docs',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'brendanwong-web', // Usually your GitHub org/user name.
   projectName: 'Dashboard-Docs', // Usually your repo name.
-  trailingSlash: false,
+  deploymentBranch: 'Deployment',
+  trailingSlash: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
