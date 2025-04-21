@@ -1,9 +1,9 @@
 {
     "label": "Dashboard Scorecards",
-    "position": 3,
+    "position": 2,
     "link": {
       "type": "generated-index",
-      "description": "Overview of all the components used in the dashboard."
+      "description": "Overview of all the Technical Dimensions."
     }
   }
   

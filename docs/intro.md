@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 # Set Up
 
@@ -16,10 +17,6 @@ Get data and transform data into this form:
 | [ Description of Criteria ]  | [ Percentage/date/value ] | [ Good/Sastisfactory/Critical ]  |
 
 Each page will have 3 associated data tables: **DevCoAssesmentAnaylsis**, **DevcoAssesmentInput** and **AddDataPoint**
-
-Discover how each component works:
-- [Traffic light indicators](./Indicators/indicators.md)
-
 
 
 ## Getting Started
