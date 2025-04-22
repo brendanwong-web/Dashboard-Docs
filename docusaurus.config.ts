@@ -88,16 +88,7 @@ const config: Config = {
               to: '/',
             },
           ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            }
-          ],
-        },
+        }
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Project Lighthouse Documentation. Built with Docusaurus.`,
     },
