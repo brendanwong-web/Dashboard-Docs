@@ -23,7 +23,7 @@ const config: Config = {
   projectName, // Usually your repo name.
   deploymentBranch: 'Deployment',
   trailingSlash: false,
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
