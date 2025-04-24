@@ -8,7 +8,7 @@ sidebar_label: 'Clustered Bar Chart'
 
 In the clustered bar chart, if we need a custom order in which data points are seen, we can do that by creating a new Column in our table in power query. Using the custom Column option from Add Column
 
-![alt text](./img/image.png)
+![alt text](./img/image-4.png)
 
 In **Custom Column** add the condition that will add columns in the sorted order 
 
@@ -42,8 +42,6 @@ Next step is to rename the Column, orginal columns look like this which is not i
 
 ![alt text](./img/image.png)
 
-
-
 To add different names to the graph, create a new Column in the *AddDataPoint(S&O)* table. 
 
 The column is named as here *AxisLabelCustom_S&O*
@@ -74,11 +72,12 @@ We add a new Column with redefined names as we want original Columns to remain u
 
 After redefining Column names, we sort this Column on the basis of our Custom Column to sort the datapoints
 
-1. Select the column *AxisLabelCustom_S&O*
+1. Select the column *AxisLabelCustom_S&O*  
+![alt text](./img/image-8.png)
 2. Once the column has been selected, on the *Column Tools* pane, click on *Sort by Column*
-![alt text](./img/image.png)
+![alt text](./img/image-7.png)
 3. In the *Sort by Column* option, click on the order in which we want our Column started, in this case **Custom** as the order of our data is based on the order defined in our *Custom Column*.  
-![alt text](./img/image.png)
+![alt text](./img/image-2.png)
 1. Columns cannot be dragged in as measures directly to create bar charts so aggregation has to be used as measures must return a single single number and visuals like bar chart need aggregated numeric values to display height or length of each bar segment. To create a measure that aggregates this Column we name it TotalValue and use SUM aggregator
 `
 TotalValue = SUM('AddDataPoint(S&O)'[Value])
